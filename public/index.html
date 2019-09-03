@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>API NEWS</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="head">
+        <h1 class="head__title">NEWS API</h1>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="search-bar">
+                <label for="search-input"></label>
+                <input type="text" class="search-bar__input" aria-label="search" placeholder="search about .." id="search-input">
+                <button class="search-bar__submit" id="submit">submit</button>
+            </div>
+            <div class="currency">
+                <p> EUR TO </p>
+                <select aria-label="exchange" class="currency__box" name="cones-select" id="cones-select">
+                    <option value="USD">USD</option>
+                    <option value="ILS">ILS</option>
+                    <option value="GBP">GBP</option>
+                    <option value="AUD">AUD</option>
+                    <option value="TRY">TRY</option>
+                    <option value="CZK">CZK</option>
+                </select>
+                <p class="currency__value">
+                    000
+                </p>
+            </div>
+        </div>
+        <section class="plog-container"></section>
+        <footer class="footer"><p>© 2019 NEWS_MMMF. ALL RIGHTS RESERVED.</p></footer>
+    </main>
+    <script src="js/request.js"></script>
+    <script src="js/dom.js"></script>
 </body>
 </html>
