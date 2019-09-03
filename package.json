@@ -1,0 +1,19 @@
+{
+  "name": "api-news",
+  "version": "1.0.0",
+  "description": "this project to apply what I have learned in api week 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadeomar/API-News.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadeomar/API-News/issues"
+  },
+  "homepage": "https://github.com/fadeomar/API-News#readme"
+}
